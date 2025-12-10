@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": ".NET Launch ScreenPulse",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/ScreenPulse/bin/Debug/net9.0-windows/ScreenPulse.exe",
+      "args": [],
+      "cwd": "${workspaceFolder}/ScreenPulse",
+      "env": {
+        "DOTNET_ENVIRONMENT": "Development"
+      },
+      "justMyCode": true
+    }
+  ]
+}
